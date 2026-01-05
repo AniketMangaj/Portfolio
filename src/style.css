@@ -310,6 +310,10 @@ button:focus {
   padding-top: 9em !important;
 }
 
+.myAvtar img {
+  border-radius: 50% !important;
+}
+
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
@@ -466,11 +470,93 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  border: 1px solid rgba(192, 132, 245, 0.3) !important;
+  border-radius: 12px !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  opacity: 1 !important;
+  border-color: rgba(192, 132, 245, 0.6) !important;
+}
+
+.project-card-view img {
+  border-radius: 12px 12px 0 0 !important;
+  object-fit: cover !important;
+  height: 200px !important;
+}
+
+.project-card-view .card-body {
+  flex-grow: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.project-card-view .card-title {
+  font-size: 1.5em !important;
+  font-weight: 600 !important;
+  margin-bottom: 15px !important;
+  color: #c084f5 !important;
+}
+
+.project-card-view .card-text {
+  flex-grow: 1 !important;
+  font-size: 1em !important;
+  line-height: 1.6 !important;
+  color: #e0e0e0 !important;
+}
+
+.project-card-footer {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-top: 20px !important;
+  padding-top: 15px !important;
+  border-top: 1px solid rgba(192, 132, 245, 0.2) !important;
+}
+
+.project-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border: none !important;
+  padding: 8px 16px !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  font-weight: 500 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.project-button:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(118, 75, 162, 0.4) !important;
+  color: white !important;
+}
+
+.project-github-link {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 50px !important;
+  height: 50px !important;
+  background: rgba(192, 132, 245, 0.15) !important;
+  color: #c084f5 !important;
+  border-radius: 50% !important;
+  transition: all 0.3s ease !important;
+  border: 2px solid #c084f5 !important;
+  text-decoration: none !important;
+}
+
+.project-github-link:hover {
+  background: #c084f5 !important;
+  color: white !important;
+  transform: scale(1.15) rotate(5deg) !important;
+  box-shadow: 0 4px 15px rgba(192, 132, 245, 0.5) !important;
 }
 
 .blog-card {

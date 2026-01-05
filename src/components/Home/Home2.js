@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -26,29 +25,23 @@ function Home2() {
                 <b className="purple"> Java, JavaScript, and SQL </b>
               </i>
               <br /><br />
-              My fields of interest are building
+              My fields of interest include building
               <i>
-                <b className="purple"> scalable microservices </b> and
-                <b className="purple"> cloud-native applications </b>
+                <b className="purple"> backend applications </b> and
+                <b className="purple"> full-stack web applications </b>
               </i>
               <br /><br />
-              I also apply my passion for developing products with
+              I enjoy developing applications using
               <i>
-                <b className="purple">Spring Boot, React.js</b>
+                <b className="purple"> Spring Boot </b> and
+                <b className="purple"> React.js </b>
               </i>
               <br /><br />
-              Whenever possible, I explore
+              I also have basic knowledge of
               <i>
-                <b className="purple"> Docker, Kubernetes </b> and
-                <b className="purple"> CI/CD pipelines </b>
+                <b className="purple"> Docker </b>
               </i>
-              to streamline development and deployment.
-              <br /><br />
-              I’m also intrigued by
-              <i>
-                <b className="purple"> AI/ML integration </b> and
-                <b className="purple"> automation tools </b>
-              </i> to boost productivity!
+              and understand containerization concepts for application deployment.
             </p>
           </Col>
 
@@ -58,6 +51,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>

@@ -11,31 +11,42 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Aniket Mangaj </span>
             from <span className="purple">Karnataka, India.</span>
             <br />
-            I am a passionate **Java Developer** with a strong foundation in full-stack web development using React and Spring Boot.
+            I am a passionate Java Developer with a strong foundation in Core Java,
+            OOP concepts, and full-stack web development.
             <br />
-            I completed my BE in Computer Science and Engineering from Hirasugar Institute of Technology, Nidasoshi.
+            I have hands-on experience with Spring Boot, REST APIs, MySQL,
+            and frontend development using React.
             <br />
-            As a fresher, I have built several projects, including a food delivery system using JDBC, Servlets, and MySQL
+            I completed my BE in Computer Science and Engineering from
+            Hirasugar Institute of Technology, Nidasoshi.
             <br />
-            Currently, I’m exploring opportunities to contribute to innovative Java/Spring Boot applications and grow my expertise in cloud-native architectures.
+            As a fresher, I have built an E-commerce shopping web application
+            using Spring Boot for the backend and React for the frontend.
+            <br />
+            I also have basic knowledge of Docker and understand containerization
+            concepts for application deployment.
+            <br />
+            Currently, I am seeking an entry-level Java Developer role where I can
+            apply my skills, learn industry best practices, and grow as a software engineer.
             <br /><br />
-            Apart from coding, I love solving logical puzzles, exploring AI productivity tools, and staying active with outdoor sports!
+            Apart from coding, I enjoy solving logical problems, exploring new technologies,
+            and staying active through outdoor sports.
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Problem Solving & DSA Practice
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies
+              <ImPointRight /> Building Java & Spring Boot Applications
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Learning New Technologies
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Strive to build things that make a difference!"
           </p>
           <footer className="blockquote-footer">Aniket</footer>
         </blockquote>

@@ -10,7 +10,8 @@ import {
 import {
   SiSpringboot,
   SiApachemaven,
-  SiHibernate
+  SiHibernate,
+  SiDocker
 } from "react-icons/si";
 
 function Techstack() {
@@ -24,6 +25,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons"><DiMysql /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiApachemaven /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiHibernate /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiDocker /></Col>
     </Row>
   );
 }

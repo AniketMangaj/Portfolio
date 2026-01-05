@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import foodDelivery from "../../Assets/Projects/FoodDeliver.jpeg";
+import ecommerce from "../../Assets/Projects/project1.png"; // reuse existing image
 import skinCancer from "../../Assets/Projects/SkinCancer.png";
 
 function Projects() {
@@ -16,16 +16,16 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a couple of projects I've worked on recently.
         </p>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* Food Delivery System */}
+          {/* E-Commerce Shopping Web Application */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={foodDelivery}
+              imgPath={ecommerce}
               isBlog={false}
-              title="Food Delivery System"
-              description="A full-stack food delivery application built with Java Spring Boot for the backend, React.js for the frontend, and MySQL for data persistence. Features include user authentication (JWT), role-based access control, real-time order tracking, and payment integration."
-              // ghLink="https://github.com/aniket-mangaj/food-delivery-system"
-              // demoLink="https://food-delivery-demo.example.com"
+              title="E-Commerce Shopping Web Application"
+              description="A full-stack e-commerce web application developed using Spring Boot and React. The application supports user authentication, product listing, cart management, order placement, and MySQL-based data persistence."
+              ghLink="https://github.com/AniketMangaj/MyFullStackProject"
             />
           </Col>
 
@@ -35,9 +35,8 @@ function Projects() {
               imgPath={skinCancer}
               isBlog={false}
               title="Skin Cancer Detection"
-              description="A machine learning web app for early detection of skin cancer using a convolutional neural network trained on the HAM10000 dataset. Built with Python Flask for the API, TensorFlow/Keras for model training, and a React.js frontend for image upload and prediction display."
-              // ghLink="https://github.com/aniket-mangaj/skin-cancer-detection"
-              // demoLink="https://skin-cancer-detect.example.com"
+              description="A machine learning-based web application for skin cancer detection using image classification. Built with Python and Flask, the system allows users to upload skin lesion images and receive predictions from a trained deep learning model. Created for educational purposes."
+              ghLink="https://github.com/AniketMangaj/skin-cancer-detection"
             />
           </Col>
         </Row>
